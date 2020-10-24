@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Genetic algorithm</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    </head>
+    <body>
+
+        <div id="readJSON">
+            <div class="container mt-5">
+                <h3>Genetic algorithm for scheduling</h3>
+                <div class="mx-auto">
+                    <!--<label>-->
+                        <!--<input type="file" id="file" ref="file" v-on:change="handleFileUpload()" />-->
+                    <!--</label>-->
+                    <button class="btn btn-info" v-on:click="readJSON()">Прочитать json</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
+        <script src="js/vue/vue.js"></script>
+        <script src="js/vue/axios.min.js"></script>
+
+        <!--Подключение файла с массивом json-->
+        <script src="js/json.js"></script>
+
+        <!--Подключение классов-->
+        <script src="js/Classes/Professor.js"></script>
+
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
