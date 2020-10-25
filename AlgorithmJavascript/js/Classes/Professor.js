@@ -2,8 +2,8 @@ class Professor {
     _courseClasses = [];
 
     constructor(id, name) {
-        this.id = id;
-        this.name = name;
+        this._id = id;
+        this._name = name;
     }
 
     get id() {
@@ -31,6 +31,6 @@ class Professor {
     }
 
     compareIdOfProfessors(Professor){
-        return this._id == Professor._id;
+        return this._id === Professor.id;
     }
 }
