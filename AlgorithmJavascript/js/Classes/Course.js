@@ -1,8 +1,8 @@
 class Course {
 
     constructor(id, name) {
-        this.id = id;
-        this.name = name;
+        this._id = id;
+        this._name = name;
     }
 
     get id() {
