@@ -2,9 +2,9 @@ class StudentGroup {
     _courseClasses = [];
 
     constructor(id, name, numberOfStudents) {
-        this.id = id;
-        this.name = name;
-        this.numberOfStudents = numberOfStudents;
+        this._id = id;
+        this._name = name;
+        this._numberOfStudents = numberOfStudents;
     }
 
     get id() {
