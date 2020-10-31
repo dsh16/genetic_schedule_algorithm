@@ -2,7 +2,7 @@ class Professor {
 
     _id: number;
     _name: string;
-    courseClasses: Array<CourseClass> = [];
+    _courseClasses: Array<CourseClass> = [];
 
     constructor(id: number, name: string) {
         this._id = id;
