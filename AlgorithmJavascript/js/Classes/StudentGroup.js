@@ -20,7 +20,7 @@ class StudentGroup {
     }
 
     get numberOfStudents() {
-        return this._name;
+        return this._numberOfStudents;
     }
 
     set numberOfStudents(newNumber) {

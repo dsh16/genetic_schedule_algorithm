@@ -1,4 +1,4 @@
-class StudentGroup {
+class Room {
     _nextRoomId = 0;
 
     constructor(name, lab, numberOfSeats) {
@@ -31,10 +31,6 @@ class StudentGroup {
 
     get isLab() {
         return this._lab;
-    }
-
-    addClass(courseClass){
-        this._courseClasses.push(courseClass);
     }
 
     restartIDs(){
